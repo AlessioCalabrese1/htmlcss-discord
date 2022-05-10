@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    justify-items: stretch;
+}
+
+header{
+    background-color: rgb(221, 212, 212);
+}
+
+.header-flex{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.head-itemssx, .head-itemsdx{
+    background-color: rgb(255, 213, 0);
+    flex-grow: 1;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.head-itemsdx
+{
+    text-align: end;
+}
+
+.head-itemscnt{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 213, 0);
+    flex-grow: 3;
+    padding: 10px;
+    border: 1px solid;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    align-items: center;
+}
+
+main section{
+    width: 100%;
+}
+
+.block{
+    border: 1px solid;
+    margin: 20px auto;
+    background-color: violet;
+    width: 50%;
+    height: 200px;  /* Le misure sono indicative, essendo che per il momento non abbiamo elementi da inserire.
+    Quindi, per vedere a schermo il blocco, è necessario dargli un'altezza indicativa! */
+}
+
+.section-2{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.section-2-item-blue{
+    background-color: rgb(0, 128, 255);
+    width: 50%;
+    height: 200px;
+    border: 1px solid;
+    margin: 20px 0 20px 0;
+}
+
+.section-2-item-pink{
+    background-color: pink;
+    width: 20%;
+    height: 200px;
+    border: 1px solid;
+    margin: 20px 0 20px 0;
+}
+
+
+.section-3{
+    background-color: rgb(193, 190, 190);;
+}
+.section-3 .block{
+    background-color: green;
+    width: 70%;
+    height: 400px;
+}
+
+.section-4{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 500px;
+}
+
+.section-4-items-brown{
+    width: 20%;
+    background-color: brown;
+    margin: 20px 0 20px 0;
+    border: 1px solid;
+}
+
+.section-4-items-light-blue{
+    display: flex;
+    flex-basis: 50%;
+    margin: 20px 0 20px 0;;
+    background-color: aquamarine;
+}
+
+.section-4-items-light-blue > div{
+    flex-basis: calc(100% / 4);
+    border: 1px solid white;
+}
+
+footer{
+    border-top: 1px solid grey;
+    background-color: black;
+    
+}
+
+.footer-flex{
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 10px 0 10px 0;
+}
+
+.footer-flex button{
+    background-color: pink;
+    border: 1px solid;
+    padding: 5px;
+}
