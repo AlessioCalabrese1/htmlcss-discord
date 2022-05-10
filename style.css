@@ -177,7 +177,7 @@ img{
 
 .section-3 button{
     margin: 50px;
-    background-color: #255EE9;
+    background-color: #7289DA;
 }
 .section-3 button a{
     color: white;
@@ -188,34 +188,60 @@ img{
 
 .section-4{
     display: flex;
-    background-color: black;
     justify-content: center;
-    height: 500px;
 }
 
-.section-4-items-brown{
+.section-4-single{
     width: 20%;
-    background-color: brown;
     margin: 20px 0 20px 0;
-    border: 1px solid;
+}
+.section-4-single h1{
+    font-size: 40px;
+    margin-top: 30px;
+    color: #7289DA;
+}
+.curtane{
+    margin-top: 20px;
+    height: 16px;
+    color: white;
+}
+.logos{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+.logos i{
+    margin-right: 20px;
 }
 
-.section-4-items-light-blue{
+
+.section-4-multiple{
     display: flex;
     flex-basis: 50%;
     margin: 20px 0 20px 0;;
-    background-color: aquamarine;
+}
+.section-4-multiple > div{
+    margin-top: 30px;
+    flex-basis: calc(100% / 4);
+}
+.section-4 a{
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+}
+.tes{
+    color: #7289DA;
+}
+.wtes{
+    color: white;
 }
 
-.section-4-items-light-blue > div{
-    flex-basis: calc(100% / 4);
-    border: 1px solid white;
-}
+
+
 
 footer{
-    border-top: 1px solid grey;
-    background-color: black;
-    
+    background-color: #23272A;
 }
 
 .footer-flex{
@@ -223,12 +249,6 @@ footer{
     width: 70%;
     margin: 10px auto;
     justify-content: space-between;
-    background-color: aquamarine;
     padding: 10px 0 10px 0;
-}
-
-.footer-flex button{
-    background-color: pink;
-    border: 1px solid;
-    padding: 5px;
+    border-top: 1px solid #7289DA;
 }
