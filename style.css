@@ -142,14 +142,49 @@ img{
 }
 
 
+
 .section-3{
-    background-color: rgb(193, 190, 190);;
+    background-color: #F6F6F6;
 }
-.section-3 .block{
-    background-color: green;
+.section-3-block{
+    margin: 40px auto;
+    text-align: center;
     width: 70%;
-    height: 400px;
 }
+
+.section-3 h1{
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+.section-3-text{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.section-3-image{
+    height: 800px;  /* Non sono convinto */
+}
+.section-3-bottom-text{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: bold;
+    height: 60px;
+    background-image: url(./img/stars.svg);
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.section-3 button{
+    margin: 50px;
+    background-color: #255EE9;
+}
+.section-3 button a{
+    color: white;
+}
+
+
+
 
 .section-4{
     display: flex;
