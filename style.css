@@ -2,57 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    display: flex;
-    flex-direction: column;
-    background-color: bisque;
-    justify-items: stretch;
-}
-
-header{
-    background-color: rgb(221, 212, 212);
-}
-
-.header-flex{
-    display: flex;
-    justify-content: center;
-    background-color: brown;
-    width: 70%;
-    margin: 20px auto;
-}
-
-.head-itemssx, .head-itemsdx{
-    background-color: rgb(255, 213, 0);
-    flex-grow: 1;
-    border: 1px solid;
-    padding: 10px;
-}
-
-.head-itemsdx
-{
-    text-align: end;
-}
-
-.head-itemscnt{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(255, 213, 0);
-    flex-grow: 3;
-    padding: 10px;
-    border: 1px solid;
-}
-
-a{
-    text-decoration: none;
-    margin: 0 10px;
+    font-family: 'Nunito', sans-serif;
 }
 
 main{
     display: flex;
     flex-direction: column;
-    background-color: blue;
     align-items: center;
 }
 
@@ -60,35 +15,130 @@ main section{
     width: 100%;
 }
 
-.block{
-    border: 1px solid;
-    margin: 20px auto;
-    background-color: violet;
-    width: 50%;
-    height: 200px;  /* Le misure sono indicative, essendo che per il momento non abbiamo elementi da inserire.
-    Quindi, per vedere a schermo il blocco, è necessario dargli un'altezza indicativa! */
+body{
+    display: flex;
+    flex-direction: column;
 }
+
+header{
+    background-color: #255EE9;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 15px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+button{
+    background-color: white;
+    border-radius: 25px;
+    padding: 7px;
+    border: none;
+}
+
+button > a{
+    color: black;
+    font-weight: 200;
+    margin: 0;
+}
+
+img{
+    height: 100%;
+}
+
+.header-flex{
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.head-itemssx, .head-itemsdx{
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.head-itemsdx{
+    text-align: end;
+    
+}
+
+.head-itemscnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+    padding: 10px;
+}
+
+
+
+.section-1{
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+}
+
+.block{
+    margin: 150px auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.block h1{
+    font-size: 50px;
+    margin: 20px 0 20px 0;
+}
+
+.block-test{
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.section-1 button{
+    margin: 10px;
+}
+
+.black-button{
+    background-color: #23272A;
+}
+.black-button a{
+    color: white;
+}
+
+
 
 .section-2{
     display: flex;
-    background-color: white;
     justify-content: center;
 }
 
-.section-2-item-blue{
-    background-color: rgb(0, 128, 255);
-    width: 50%;
-    height: 200px;
-    border: 1px solid;
-    margin: 20px 0 20px 0;
+.section-2-image{
+    width: 40%;
 }
 
-.section-2-item-pink{
-    background-color: pink;
-    width: 20%;
-    height: 200px;
-    border: 1px solid;
+.section-2-text{
+    width: 30%;
     margin: 20px 0 20px 0;
+    padding: 20px;
+}
+
+.section-2-text h1{
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.section-2-text div{
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.wave{
+    width: 100%;
 }
 
 
